@@ -1,0 +1,25 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /data8T/miki/xinye/preliminary/train/a_images  # 128 images
+val: /data8T/miki/xinye/preliminary/test/a_images  # 128 images
+
+# number of classes
+nc: 116
+
+# class names
+
+names: ['asamu', 'baishikele', 'baokuangli', 'aoliao', 'bingqilinniunai', 'chapai', 'fenda', 'guolicheng', 'haoliyou',
+        'heweidao', 'hongniu', 'hongniu2', 'hongshaoniurou', 'kafei', 'kaomo_gali', 'kaomo_jiaoyan', 'kaomo_shaokao',
+        'kaomo_xiangcon', 'kele', 'laotansuancai', 'liaomian', 'lingdukele', 'maidong', 'mangguoxiaolao', 'moliqingcha',
+        'niunai', 'qinningshui', 'quchenshixiangcao', 'rousongbing', 'suanlafen', 'tangdaren', 'wangzainiunai', 'weic',
+        'weitanai', 'weitaningmeng', 'wulongcha', 'xuebi', 'xuebi2', 'yingyangkuaixian', 'yuanqishui', 'xuebi-b',
+        'kebike', 'tangdaren3', 'chacui', 'heweidao2', 'youyanggudong', 'baishikele-2', 'heweidao3', 'yibao', 'kele-b',
+        'AD', 'jianjiao', 'yezhi', 'libaojian', 'nongfushanquan', 'weitanaiditang', 'ufo', 'zihaiguo', 'nfc',
+        'yitengyuan', 'xianglaniurou', 'gudasao', 'buding', 'ufo2', 'damaicha', 'chapai2', 'tangdaren2', 'suanlaniurou',
+        'bingtangxueli', 'weitaningmeng-bottle', 'liziyuan', 'yousuanru', 'rancha-1', 'rancha-2', 'wanglaoji',
+        'weitanai2', 'qingdaowangzi-1', 'qingdaowangzi-2', 'binghongcha', 'aerbeisi', 'lujikafei', 'kele-b-2',
+        'anmuxi', 'xianguolao', 'haitai', 'youlemei', 'weiweidounai', 'jindian', '3jia2', 'meiniye', 'rusuanjunqishui',
+        'taipingshuda', 'yida', 'haochidian', 'wuhounaicha', 'baicha', 'lingdukele-b', 'jianlibao', 'lujiaoxiang',
+        '3+2-2', 'luxiangniurou', 'dongpeng', 'dongpeng-b', 'xianxiayuban', 'niudufen', 'zaocanmofang', 'wanglaoji-c',
+        'mengniu', 'mengniuzaocan', 'guolicheng2', 'daofandian1', 'daofandian2', 'daofandian3', 'daofandian4',
+        'yingyingquqi', 'lefuqiu']
+
